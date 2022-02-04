@@ -11,3 +11,64 @@ L model
   L Ring.java // Class definition for the Ring object  
   L RingSizeException.java // Exception class interrupting the program if an invalid ring placement is found  
   L Tower.java // Class definition for the Tower object. Contains a variable number of rings  
+
+## Output
+The output of the program, for four rings, is as follows:
+```
+   XXX          |           |       
+  XXXXX         |           |       
+ XXXXXXX        |           |       
+XXXXXXXXX       |           |       
+---------------------------------
+  XXXXX         |           |       
+ XXXXXXX        |           |       
+XXXXXXXXX      XXX          |       
+---------------------------------
+ XXXXXXX        |           |
+XXXXXXXXX      XXX        XXXXX     
+---------------------------------
+ XXXXXXX        |          XXX      
+XXXXXXXXX       |         XXXXX     
+---------------------------------
+    |           |          XXX      
+XXXXXXXXX    XXXXXXX      XXXXX     
+---------------------------------
+   XXX          |           |       
+XXXXXXXXX    XXXXXXX      XXXXX     
+---------------------------------
+   XXX        XXXXX         |
+XXXXXXXXX    XXXXXXX        |       
+---------------------------------
+    |          XXX          |       
+    |         XXXXX         |
+XXXXXXXXX    XXXXXXX        |       
+---------------------------------
+    |          XXX          |
+    |         XXXXX         |       
+    |        XXXXXXX    XXXXXXXXX
+---------------------------------
+    |         XXXXX        XXX
+    |        XXXXXXX    XXXXXXXXX   
+---------------------------------
+    |           |          XXX
+  XXXXX      XXXXXXX    XXXXXXXXX
+---------------------------------
+   XXX          |           |       
+  XXXXX      XXXXXXX    XXXXXXXXX   
+---------------------------------
+   XXX          |        XXXXXXX    
+  XXXXX         |       XXXXXXXXX
+---------------------------------
+    |           |        XXXXXXX    
+  XXXXX        XXX      XXXXXXXXX
+---------------------------------
+    |           |         XXXXX     
+    |           |        XXXXXXX
+    |          XXX      XXXXXXXXX   
+---------------------------------
+    |           |          XXX
+    |           |         XXXXX     
+    |           |        XXXXXXX
+    |           |       XXXXXXXXX   
+---------------------------------
+```
